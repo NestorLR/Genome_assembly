@@ -1,4 +1,4 @@
-# Introducción al ensamble y anotación de plastomas
+# Introducción del taller
 ---
 ## El genoma de cloroplasto
 
