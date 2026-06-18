@@ -1,4 +1,4 @@
-# Información importante
+# Instalación de programas para el taller
 
 ## 1. Recomendaciones generales
 
