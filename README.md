@@ -1,8 +1,9 @@
 # Taller: Ensamblado y anotación de genomas citoplásmicos a partir de datos de secuenciación masiva
 
-## ¡Bienvenidos!
 
 ![Banner del taller](Figuras/Banner.png)
+
+## ¡Bienvenidos!
 
 Les damos la bienvenida al repositorio oficial del taller **"Ensamblado y anotación de genomas citoplásmicos a partir de datos de secuenciación masiva"** en el marco del XLIV Coloquio de Investigación de la Facultad de Estudios Superiores Iztacala, UNAM.
 
