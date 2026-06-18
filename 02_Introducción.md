@@ -12,7 +12,7 @@
 
 ```mermaid
 flowchart TD
-    A[NCBI<br>Base de datos] --> B[prefetch + fasterq-dump<br>Descarga de datos]
+    A[NCBI<br>Base de datos] --> B[prefetch + fasterq-dump<br>(Descarga de datos)]
     B --> C[FastQC<br>Evaluación de calidad]
     C --> D[TrimGalore!<br>Control de calidad]
     D --> E[FastQC<br>Evaluación posterior al filtrado]
