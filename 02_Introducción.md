@@ -19,7 +19,7 @@ El flujo general de trabajo experimental para la obtención de datos de secuenci
 
 
 **Conceptos importantes a tener en cuenta:**
-1. [Tipos de bibliotecas genómicas](https://www.illumina.com/science/technology/next-generation-sequencing/plan-experiments/paired-end-vs-single-read.html): *Pair-end* y *Single-end*. Algunos programas bioinformáticos solo aceptan un tipo particular de datos o se debe especificar el tipo de biblioteca usado.
+1. [Tipos de bibliotecas genómicas](https://www.illumina.com/science/technology/next-generation-sequencing/plan-experiments/paired-end-vs-single-read.html): *Paired-end* y *Single-end*. Algunos programas bioinformáticos solo aceptan un tipo particular de datos o se debe especificar el tipo de biblioteca usado.
 
 ![Single-end y Pair-end](Figuras/Pair-end_Single-end.png)
 
@@ -28,7 +28,7 @@ El flujo general de trabajo experimental para la obtención de datos de secuenci
 2. Profundidad de la secuenciación: Número de veces que es leído un nucleótido en el fragmento de AND durante el proceso de secuenciación.
 3. Calidad de la secuenciación: Precisión con la que se identidica cada nucleótido en las lecutras. Se presenta como un puntaje de calidad (Phred Score, Q).
 
-![Profundidad y calidad](images/Profundidad_calidad.png)
+![Profundidad y calidad](Figuras/Profundidad_calidad.png)
 
 **Figura 3.** Conceptos de profundidad y calidad de secuenciación. La profundidad indica cuántas veces se ha leído una posición nucleotídica del fragmento de ADN, mientras que la calidad representa la confianza en la identificación de cada nucleótido.
 
