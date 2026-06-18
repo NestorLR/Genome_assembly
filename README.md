@@ -2,6 +2,8 @@
 
 ## ¡Bienvenidos!
 
+![Banner del taller](Figuras/Banner.png)
+
 Les damos la bienvenida al repositorio oficial del taller **"Ensamblado y anotación de genomas citoplásmicos a partir de datos de secuenciación masiva"** en el marco del XLIV Coloquio de Investigación de la Facultad de Estudios Superiores Iztacala, UNAM.
 
 El objetivo de este repositorio es proporcionar a los participantes los materiales de consulta, comandos, scripts y recursos utilizados durante las actividades prácticas del taller. A lo largo de la jornada, exploraremos los fundamentos de la secuenciación masiva y desarrollaremos un flujo de trabajo reproducible para el ensamblado y la anotación de genomas de cloroplasto utilizando herramientas bioinformáticas de libre acceso.
