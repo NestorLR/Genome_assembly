@@ -221,23 +221,3 @@ conda list
 
 Deberán aparecer los programas mencionados anteriormente dentro del ambiente `plastoma`.
 
-
-
-NCBI (SRA)
-    ↓
-prefetch
-    ↓
-fasterq-dump
-    ↓
-FastQC
-    ↓
-fastp (o fastqc + trimming)
-    ↓
-GetOrganelle
-    ↓
-Bandage
-    ↓
-Anotación (GeSeq)
-
-197 +39 Mb + 252 + 179 + 218
-
