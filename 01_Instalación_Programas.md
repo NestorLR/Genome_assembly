@@ -165,7 +165,7 @@ conda mamba -c bioconda -c conda-forge \
 sra-tools \
 fastqc \
 multiqc \
-fastp \
+trim-galore \
 getorganelle
 ```
 
@@ -208,7 +208,7 @@ Si los comandos muestran información de versión o ayuda sin generar errores, l
 | SRA Toolkit  | Descarga de datos de secuenciación desde NCBI Sequence Read Archive (SRA). |
 | FastQC       | Evaluación de la calidad de las lecturas de secuenciación.                 |
 | MultiQC      | Integración de múltiples reportes de calidad en un único informe.          |
-| fastp        | Filtrado y limpieza de lecturas de secuenciación.                          |
+| Trimgalore   | Filtrado y limpieza de lecturas de secuenciación.                          |
 | GetOrganelle | Ensamblado de genomas de organelos a partir de lecturas Illumina.          |
 
 ### Verificación final
