@@ -67,6 +67,6 @@ Nota: La presencia de uno o más de estos factores no impide necesariamente la r
 ## Flujo de trabajo del taller
 
 
-![Workflow del taller](Figuras/Taller_Workflow.png)
+![Banner del taller](Figuras/Banner.png)
 
 **Figura 4.** Flujo bioinformático a seguir durante este taller. Pasos generales desde la descarga de los datos hasta la anotación de un plastoma. 
