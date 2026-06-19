@@ -1,6 +1,6 @@
 # Introducción del taller
 ---
-## El genoma de cloroplasto
+## El genoma de cloroplasto y la mitocondria
 
 
 ---
