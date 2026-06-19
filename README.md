@@ -1,21 +1,21 @@
-# Taller: Ensamblado y anotación de genomas citoplásmicos a partir de datos de secuenciación masiva
+# Taller: Introducción a la bioinformática: Ensamble y anotación de genomas de cloroplasto y mitocondria
 
 
 ![Banner del taller](Figuras/Banner.png)
 
 ## ¡Bienvenidos!
 
-Les damos la bienvenida al repositorio oficial del taller **"Ensamblado y anotación de genomas citoplásmicos a partir de datos de secuenciación masiva"** en el marco del XLIV Coloquio de Investigación de la Facultad de Estudios Superiores Iztacala, UNAM.
+Les damos la bienvenida al repositorio oficial del taller **"Introducción a la bioinformática: Ensamble y anotación de genomas de cloroplasto y mitocondria"** en el marco del XLIV Coloquio de Investigación de la Facultad de Estudios Superiores Iztacala, UNAM.
 
-El objetivo de este repositorio es proporcionar a los participantes los materiales de consulta, comandos, scripts y recursos utilizados durante las actividades prácticas del taller. A lo largo de la jornada, exploraremos los fundamentos de la secuenciación masiva y desarrollaremos un flujo de trabajo reproducible para el ensamblado y la anotación de genomas de cloroplasto utilizando herramientas bioinformáticas de libre acceso.
+El objetivo de este repositorio es proporcionar a los participantes los materiales de consulta, comandos, scripts y recursos utilizados durante las actividades prácticas del taller. A lo largo de la jornada, exploraremos los fundamentos de la secuenciación masiva y desarrollaremos un flujo de trabajo reproducible para el ensamblado y la anotación de genomas citoplásmicos utilizando herramientas bioinformáticas de libre acceso.
 
-El genoma de cloropasto no solo contienen genes esenciales involucrados en procesos biológicos fundamentales como la fotosíntesis, sino que resguarda la historia evolutiva de las especies que lo contienen. Gracias a la creciente disponibilidad de datos genómicos públicos, actualmente es posible recuperar y analizar estos genomas utilizando estrategias bioinformáticas accesibles para estudiantes e investigadores de distintas áreas de las ciencias biológicas.
+El genoma de cloropasto y la mitocondria no solo contienen genes esenciales involucrados en procesos biológicos fundamentales como la fotosíntesis y la respiración celular, sino que resguardan la historia evolutiva de las especies que los contienen. Gracias a la creciente disponibilidad de datos genómicos públicos, actualmente es posible recuperar y analizar estos genomas utilizando estrategias bioinformáticas accesibles para estudiantes e investigadores de distintas áreas de las ciencias biológicas.
 
 ---
 
 ## Objetivo general
 
-Introducir a los participantes en el uso básico de herramientas bioinformáticas para el ensamblado y la anotación de genomas de cloroplasto a partir de datos de secuenciación masiva.
+Introducir a los participantes en el uso básico de herramientas bioinformáticas para el ensamblado y la anotación de genomas citoplásmicos a partir de datos de secuenciación masiva.
 
 ### Objetivos específicos
 
@@ -33,7 +33,6 @@ Introducir a los participantes en el uso básico de herramientas bioinformática
 | 09:00 – 10:00 | Introducción a las tecnologías de secuenciación masiva y al flujo experimental de generación de datos genómicos. |
 | 10:00 – 12:00 | Introducción a Linux, línea de comandos e instalación de programas bioinformáticos.                              |
 | 12:00 – 14:00 | Exploración de repositorios públicos y descarga de datos genómicos.                                              |
-| 14:00 – 14:30 | Receso.                                                                                                          |
 | 14:30 – 15:30 | Ensamblado *de novo* de genomas citoplásmicos utilizando GetOrganelle.                                           |
 | 15:30 – 16:30 | Anotación génica mediante herramientas en línea.                                                                 |
 | 16:30 – 17:00 | Integración, interpretación y discusión de resultados.                                                           |
