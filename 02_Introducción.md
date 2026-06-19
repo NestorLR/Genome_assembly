@@ -68,5 +68,3 @@ Nota: La presencia de uno o más de estos factores no impide necesariamente la r
 
 
 ![Banner del taller](Figuras/Banner.png)
-
-**Figura 4.** Flujo bioinformático a seguir durante este taller. Pasos generales desde la descarga de los datos hasta la anotación de un plastoma. 
