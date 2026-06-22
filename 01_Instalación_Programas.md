@@ -161,7 +161,7 @@ conda activate plastoma
 Ejecutar el siguiente comando:
 
 ```bash
-conda mamba -c bioconda -c conda-forge \
+mamba install -c bioconda -c conda-forge \
 sra-tools \
 fastqc \
 multiqc \
