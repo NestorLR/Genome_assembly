@@ -192,7 +192,7 @@ multiqc --version
 ```
 
 ```bash
-fastp --version
+trim_galore --version
 ```
 
 ```bash
