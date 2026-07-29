@@ -18,7 +18,9 @@ Correo: sofia.lujano@iztacala.unam.mx
 * **Erika Yazmín Maldonado González** — Estudiante de la Licenciatura en Biología.
 ---
 ## Antecedentes
-El genoma de cloropasto y la mitocondria no solo contienen genes esenciales involucrados en procesos biológicos fundamentales como la fotosíntesis y la respiración celular, sino que resguardan la historia evolutiva de las especies que los contienen. Gracias a la creciente disponibilidad de datos genómicos públicos, actualmente es posible recuperar y analizar estos genomas utilizando estrategias bioinformáticas, las cuáles pueden ser útiles para estudiantes e investigadores de distintas áreas de las ciencias biológicas.
+El genoma de cloropasto y la mitocondria no solo contienen genes esenciales involucrados en procesos biológicos fundamentales como la fotosíntesis y la respiración celular, sino que resguardan la historia evolutiva de las especies que los contienen. 
+
+Gracias a la creciente disponibilidad de datos genómicos públicos, actualmente es posible recuperar y analizar estos genomas utilizando estrategias bioinformáticas, las cuáles pueden ser útiles para estudiantes e investigadores de distintas áreas de las ciencias biológicas. 
 
 Desde 2016, el Laboratorio de Ecología Molecular y Evolución desarrolla investigación en ensamblado y anotación de genomas citoplásmicos en plantas, particularmente en cactáceas. Como resultado de este trabajo se ha contribuido a la descripción de los primeros [genomas de cloroplasto ensamblados](https://pubmed.ncbi.nlm.nih.gov/31581555/) para diversas especies de cactus y del [primer genoma mitocondrial](https://pubmed.ncbi.nlm.nih.gov/37653379/) reportado para una angiosperma.
 
