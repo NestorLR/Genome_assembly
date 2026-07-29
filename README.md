@@ -9,18 +9,18 @@ Les damos la bienvenida al repositorio oficial del taller **"Introducción a la 
 
 ---
 ## Coordinadora
-* **Dra. Sofía Solórzano Lujano** — Profesora de Carrera Titular C y responsable del laboratorio. \
+* **Dra. Sofía Solórzano Lujano** — Profesora de Carrera Titular C y responsable del [Laboratorio de Ecología Molecular y Evolución](https://posgrado.iztacala.unam.mx/laboratorio-de-ecologia-molecular-y-evolucion/). \
 Correo: sofia.lujano@iztacala.unam.mx 
 ## Facilitadores
-* **Dr. Vicente de Jesús Castillo Chora** — Investigador posdoctoral. Correo: vicentecchora@gmail.com
-* **Biól. Néstor Edwin López Ruiz** — Estudiante de Doctorado en Ciencias Biológicas. Correo: nestorlopezruiz99@gmail.com
+* **Dr. Vicente de Jesús Castillo Chora** — Investigador posdoctoral. vicentecchora@gmail.com
+* **Biól. Néstor Edwin López Ruiz** — Estudiante de Doctorado en Ciencias Biológicas. nestorlopezruiz99@gmail.com
 * **Elba Iztel Nicanor Licona** — Tesista de la Licenciatura en Biología.
 * **Erika Yazmín Maldonado González** — Estudiante de la Licenciatura en Biología.
 ---
 ## Antecedentes
 El genoma de cloropasto y la mitocondria no solo contienen genes esenciales involucrados en procesos biológicos fundamentales como la fotosíntesis y la respiración celular, sino que resguardan la historia evolutiva de las especies que los contienen. Gracias a la creciente disponibilidad de datos genómicos públicos, actualmente es posible recuperar y analizar estos genomas utilizando estrategias bioinformáticas, las cuáles pueden ser útiles para estudiantes e investigadores de distintas áreas de las ciencias biológicas.
 
-Desde 2016, el [Laboratorio de Ecología Molecular y Evolución](https://posgrado.iztacala.unam.mx/laboratorio-de-ecologia-molecular-y-evolucion/) desarrolla investigación en ensamblado y anotación de genomas citoplásmicos en plantas, particularmente en cactáceas. Como resultado de este trabajo se ha contribuido a la descripción de los primeros [genomas de cloroplasto ensamblados](https://pubmed.ncbi.nlm.nih.gov/31581555/) para diversas especies de cactus y del [primer genoma mitocondrial](https://pubmed.ncbi.nlm.nih.gov/37653379/) reportado para una angiosperma.
+Desde 2016, el Laboratorio de Ecología Molecular y Evolución desarrolla investigación en ensamblado y anotación de genomas citoplásmicos en plantas, particularmente en cactáceas. Como resultado de este trabajo se ha contribuido a la descripción de los primeros [genomas de cloroplasto ensamblados](https://pubmed.ncbi.nlm.nih.gov/31581555/) para diversas especies de cactus y del [primer genoma mitocondrial](https://pubmed.ncbi.nlm.nih.gov/37653379/) reportado para una angiosperma.
 
 ---
 ## Objetivo general
