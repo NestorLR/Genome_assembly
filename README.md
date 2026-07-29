@@ -44,7 +44,7 @@ El objetivo de este repositorio es proporcionar a los participantes los material
 Los materiales del taller se encuentran organizados en los siguientes documentos:
 
 
-| Horario       |                 | Actividad                                                                                                        |
+| Horario       |       Archivo          | Actividad                                                                                                        |
 | ------------- | ----------------| ------------------------------------------------------------------------------------------------ |
 | 09:00 – 09:30 |   [01_Introducción.md](https://github.com/vicentoc/Genome_assembly/blob/main/02_Introducci%C3%B3n.md) | Introducción a las tecnologías de secuenciación masiva y al flujo experimental de generación de datos genómicos. |
 | 09:30 – 10:30 |  [02_instalación.md](https://github.com/vicentoc/Genome_assembly/blob/main/01_Instalaci%C3%B3n_Programas.md)  |Instalación de programas bioinformáticos.|
