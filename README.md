@@ -38,32 +38,21 @@ Introducir a los participantes en el uso básico de herramientas bioinformática
 
 ---
 
-## Secuencia del taller
-
-| Horario       | Actividad                                                                                                        |
-| ------------- | ---------------------------------------------------------------------------------------------------------------- |
-| 09:00 – 09:30 | Introducción a las tecnologías de secuenciación masiva y al flujo experimental de generación de datos genómicos. |
-| 09:30 – 10:30 | Introducción a Linux, línea de comandos e instalación de programas bioinformáticos.                              |
-| 10:30 – 11:00 | Exploración de repositorios públicos y descarga de datos genómicos.                                              |
-| 11:00 – 11:30 | Ensamblado *de novo* de genomas citoplásmicos utilizando GetOrganelle.                                           |
-| 11:30 – 12:30 | Anotación génica mediante herramientas en línea.                                                                 |
-| 12:30 – 13:00 | Integración, interpretación y discusión de resultados.                                                           |
-
----
-
 ## Estructura del repositorio
 El objetivo de este repositorio es proporcionar a los participantes los materiales de consulta, comandos, scripts y recursos utilizados durante las actividades prácticas del taller. A lo largo de la jornada, exploraremos los fundamentos de la secuenciación masiva y desarrollaremos un flujo de trabajo reproducible para el ensamblado y la anotación de genomas citoplásmicos utilizando herramientas bioinformáticas de libre acceso.
 
 Los materiales del taller se encuentran organizados en los siguientes documentos:
 
-| Documento                       | Contenido                                                                  |
-| ------------------------------- | -------------------------------------------------------------------------- |
-| [01_instalacion.md](https://github.com/vicentoc/Genome_assembly/blob/main/01_Instalaci%C3%B3n_Programas.md)             | Instalación de Ubuntu, Miniforge y programas bioinformáticos.              |
-| [02_Introducción.md](https://github.com/vicentoc/Genome_assembly/blob/main/02_Introducci%C3%B3n.md)            | Introducción a los genomas de cloroplasto y la secuenciación masiva        |
-| 03_descarga_datos.md          | Introducción a repositorios públicos y descarga de datos de secuenciación. |
-| 04_control_calidad.md         | Evaluación y filtrado de lecturas mediante FastQC y TrimGalore.            |
-| 05_ensamblado_getorganelle.md | Ensamblado *de novo* de genomas citoplásmicos utilizando GetOrganelle.     |
-| 06_anotacion_plastoma.md      | Anotación y exploración de genomas ensamblados mediante GeSeq.             |
+
+| Horario       |                 | Actividad                                                                                                        |
+| ------------- | ----------------| ------------------------------------------------------------------------------------------------ |
+| 09:00 – 09:30 |   [01_Introducción.md](https://github.com/vicentoc/Genome_assembly/blob/main/02_Introducci%C3%B3n.md) | Introducción a las tecnologías de secuenciación masiva y al flujo experimental de generación de datos genómicos. |
+| 09:30 – 10:30 |  [02_instalación.md](https://github.com/vicentoc/Genome_assembly/blob/main/01_Instalaci%C3%B3n_Programas.md)  |Instalación de programas bioinformáticos.|
+| 10:30 – 11:00 | [03_cmd.md](https://github.com/vicentoc/Genome_assembly/blob/main/03_cmd.md)  | Introducción a línea de comandos  |
+| 11:00 – 11:30 | [04_ensamble.md](https://github.com/vicentoc/Genome_assembly/blob/main/04_ensamble.md) | Introducción a repositorios públicos y descarga de datos de secuenciación. |
+| 11:00 – 11:30 | [04_ensamble.md](https://github.com/vicentoc/Genome_assembly/blob/main/04_ensamble.md) | Ensamble *de novo* de genomas citoplásmicos utilizando GetOrganelle.|
+| 11:30 – 12:30 |  [Geseq](https://chlorobox.mpimp-golm.mpg.de/geseq.html) | Anotación génica mediante herramientas en línea. |
+| 12:30 – 13:00 |                 | Integración, interpretación y discusión de resultados.  |
 
 ---
 
