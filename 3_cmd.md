@@ -29,7 +29,7 @@ Es una herramienta basada en texto que te permite dar órdenes directas al siste
 **cat**: mostrar el contenido de un archivo \
 **echo**: imprimir texto en la terminal \
 **realpath**: mostrar la ruta absoluta de un archivo o directorio \
-**pwd**: print working directory (mostrar el directorio actual) \
+**pwd**: mostrar el directorio actual \
 **mv**: mover o renombrar archivos y directorios \
 **cp**: copiar archivos y directorios \
 **rm**: eliminar archivos \
