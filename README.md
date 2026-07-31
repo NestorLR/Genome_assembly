@@ -12,7 +12,7 @@ Les damos la bienvenida al repositorio oficial del taller **"Introducción a la 
 * **Dra. Sofía Solórzano Lujano** — Profesora de Carrera Titular C y responsable del [Laboratorio de Ecología Molecular y Evolución](https://posgrado.iztacala.unam.mx/laboratorio-de-ecologia-molecular-y-evolucion/). \
 Correo: sofia.lujano@iztacala.unam.mx 
 ## Facilitadores
-* **Dr. Vicente de Jesús Castillo Chora** — Investigador posdoctoral. vicentecchora@gmail.com
+* **Dr. Vicente de J. Castillo Chora** — Investigador posdoctoral. vicentecchora@gmail.com
 * **Biól. Néstor Edwin López Ruiz** — Estudiante de Doctorado en Ciencias Biológicas. nestorlopezruiz99@gmail.com
 * **Elba Iztel Nicanor Licona** — Tesista de la Licenciatura en Biología.
 * **Erika Yazmín Maldonado González** — Estudiante de la Licenciatura en Biología.
