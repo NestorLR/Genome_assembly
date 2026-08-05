@@ -1,6 +1,6 @@
 # Paso 0: Activar ambiente
 ### 0a) Ir a la Carpeta de trabajo
-$ cd /ruta/absoluta/a/taller_genomas
+ $ cd /ruta/absoluta/a/taller_genomas
 
 ### 0b) Activar ambiente
 
