@@ -16,7 +16,7 @@ $ mkdir mammillaria_secuencias
     
 ### 1b) descargar las secuencias
 $ conda install -c bioconda sra-tools \
-$ fasterq-dump SRR23441685 -O "mammillaria_secuencias/." --verbose 
+$ fasterq-dump SRR23441678 -O "mammillaria_secuencias/." --verbose 
 
 ---
 # Paso 2: Preprocesamiento de los datos
@@ -46,8 +46,12 @@ $ conda install -c bioconda getorganelle
 ### 3a) Directorio
 $ mkdir mammillaria_organelle
     
-### 3b) Ensamble
-$ get_organelle_from_reads.py -1 mammillaria_limpias/*1.fq -2 mammillaria_limpias/*2.fq -R 20 -k 45,75,95,127 -F embplant_pt -o mammillaria_organelle/ 
+### 3b) Ensamble usando secuencia *seed*
+
+$ get_organelle_from_reads.py -1 mammillaria_limpias/SRR23441678_1.fastq.gz -2 mammillaria_limpias/SRR23441678_2.fastq.gz -s sequence.fasta -w 85 -R 10 -k 81,95,99,109,115,119,121,125,127 -F embplant_pt -o mammillaria_organelle/ 
+
+### 3c) Ensamble sin secuencia *seed*
+$ get_organelle_from_reads.py -1 mammillaria_limpias/*1.fq -2 mammillaria_limpias/*2.fq -w 85 -R 10 -k 81,95,99,109,115,119,121,125,127 -F embplant_pt -o mammillaria_organelle/ 
 
 ---  
 #  Paso 4: Datos del genoma   
