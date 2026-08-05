@@ -54,4 +54,9 @@ $ get_organelle_from_reads.py -1 mammillaria_limpias/*1.fq -2 mammillaria_limpia
 [Bandage](https://rrwick.github.io/Bandage/) \
 $ conda install -c bioconda bandage
 ### 4a) Visualizar gráfica de ensamblado
-$ Bandage image mammillaria_organelle/*selected_graph.gfa mammillaria_organelle/graph_bandage.png 
+$ Bandage image mammillaria_organelle/*selected_graph.gfa mammillaria_organelle/graph_bandage.png \
+$ eog graph_bandage.png \
+$ Bandage image \
+$ mammillaria_organelle/*selected_graph.gfa mammillaria_organelle/graph_bandage.png --lengths --depth
+
+
