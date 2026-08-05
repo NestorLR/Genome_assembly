@@ -12,7 +12,7 @@
 Es una herramienta basada en texto que te permite dar órdenes directas al sistema operativo de tu computadora mediante el teclado.
 
 ---
-#### Ventajas
+#### Ventajas:
 **Tareas simples**: Administrar archivos, crear carpetas o borrar datos. \
 **Eficiencia:** Consume menos memoria y potencia que una interfaz gráfica. \
 **Automatización:** Ejecutar tareas repetitivas mediante la creación de guiones o scripts. \
