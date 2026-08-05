@@ -66,24 +66,7 @@ ls
 **Ahora vamos a editar apocosi.sh** \
 echo '#!/bin/bash' >> apocosi.sh \
 cat apocosi.sh \
-echo "echo "Esté es muy primer script"' >> apocosi.sh \
-echo 'echo "Se agregó la línea shebang a su script"' >> apocosi.sh \
 echo 'echo "Hola Mundo"' >> apocosi.sh \
 cat apocosi.sh \
-echo 'echo "El archivo apocosi.sh se está ejecutando"' >> apocosi.sh \
-echo 'touch archivo_serio.txt' >> apocosi.sh \
-echo 'echo "Usted ha creado el archivo archivo_serio.txt"' >> apocosi.sh \
-echo 'cp archivo_serio.txt ..' >> apocosi.sh \
-echo 'echo "El archivo archivo_serio.txt se ha copiado un directorio arriba"' >> apocosi.sh \
-echo 'echo "Usted se encuentra acá:"' >> apocosi.sh \
-echo 'realpath .' >> apocosi.sh \
-echo 'echo "Estos son los archivos al momento:"' >> apocosi.sh \
-echo 'ls' >> apocosi.sh \
-echo 'rm archivo_serio.txt' >> apocosi.sh \
-echo 'echo "Usted ha borrado el archivo_serio.txt de este directorio"' >> apocosi.sh \
-echo 'echo "Es hora de descansar"' >> apocosi.sh \
-echo 'cmatrix' >> apocosi.sh 
-
-
 **Ejecutar apocosi.sh** \
 ./apocosi.sh
