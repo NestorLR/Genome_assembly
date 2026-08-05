@@ -49,8 +49,8 @@ Los materiales del taller se encuentran organizados en los siguientes documentos
 | 09:00 – 09:30 |   [01_Introducción.md](https://github.com/vicentoc/Genome_assembly/blob/main/02_Introducci%C3%B3n.md) | Introducción a las tecnologías de secuenciación masiva y al flujo experimental de generación de datos genómicos. |
 | 09:30 – 10:30 |  [02_instalación.md](https://github.com/vicentoc/Genome_assembly/blob/main/01_Instalaci%C3%B3n_Programas.md)  |Instalación de programas bioinformáticos.|
 | 10:30 – 11:00 | [03_cmd.md](https://github.com/vicentoc/Genome_assembly/blob/main/3_cmd.md)  | Introducción a línea de comandos  |
-| 11:00 – 11:30 | [04_descarga_y_ensamble.md](https://github.com/vicentoc/Genome_assembly/blob/main/04_ensamble.md) | Introducción a repositorios públicos y descarga de datos de secuenciación. |
-| 11:00 – 11:30 | [04_descarga_y_ensamble.md](https://github.com/vicentoc/Genome_assembly/blob/main/04_ensamble.md) | Ensamble *de novo* de genomas citoplásmicos utilizando GetOrganelle.|
+| 11:00 – 11:30 | [04_flujo_de_trabajo.md](https://github.com/vicentoc/Genome_assembly/blob/main/04_ensamble.md) | Introducción a repositorios públicos y descarga de datos de secuenciación. |
+| 11:00 – 11:30 | [04_flujo_de_trabajo.md](https://github.com/vicentoc/Genome_assembly/blob/main/04_ensamble.md) | Preprocesamiento y ensamble *de novo* de genomas citoplásmicos.
 | 11:30 – 12:30 |  [Geseq](https://chlorobox.mpimp-golm.mpg.de/geseq.html) | Anotación génica mediante herramientas en línea. |
 | 12:30 – 13:00 |                 | Integración, interpretación y discusión de resultados.  |
 
