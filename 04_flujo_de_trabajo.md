@@ -3,6 +3,7 @@
 $ cd /ruta/absoluta/a/taller_genomas
 
 ### Activar ambiente
+
 $ conda create -n genomics
 $ conda activate genomics
 
