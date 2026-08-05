@@ -52,8 +52,7 @@ Los materiales del taller se encuentran organizados en los siguientes documentos
 | 11:00 – 11:30 | [04_flujo_de_trabajo.md](https://github.com/vicentoc/Genome_assembly/blob/main/04_flujo_de_trabajo.md) | Introducción a repositorios públicos y descarga de datos de secuenciación. |
 | 11:00 – 11:30 | [04_flujo_de_trabajo.md](https://github.com/vicentoc/Genome_assembly/blob/main/04_flujo_de_trabajo.md) | Preprocesamiento y ensamble *de novo* de genomas citoplásmicos.
 | 11:30 – 12:30 |  [Geseq](https://chlorobox.mpimp-golm.mpg.de/geseq.html) | Anotación génica mediante herramientas en línea. |
-| 12:30 – 13:00 |   [Chloroplast genomes](https://link.springer.com/article/10.1186/s12864-025-12498-6) \ 
-[Comparative mitogenomics](https://zookeys.pensoft.net/article/152269/)          | Integración, interpretación y discusión de resultados.  |
+| 12:30 – 13:00 |   [Chloroplast genomes](https://link.springer.com/article/10.1186/s12864-025-12498-6) / [Comparative mitogenomics](https://zookeys.pensoft.net/article/152269/)          | Integración, interpretación y discusión de resultados.  |
 
 ---
 
