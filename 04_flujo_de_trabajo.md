@@ -15,6 +15,7 @@ $ conda list
 $ mkdir mammillaria_secuencias
     
 ### 1b) descargar las secuencias
+[GenBank](https://www.ncbi.nlm.nih.gov/genbank/) \
 $ conda install -c bioconda sra-tools \
 $ fasterq-dump SRR23441678 -O "mammillaria_secuencias/." --verbose 
 
