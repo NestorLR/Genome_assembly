@@ -22,6 +22,7 @@ $ fasterq-dump SRR23441678 -O "mammillaria_secuencias/." --verbose
 ---
 # Paso 2: Preprocesamiento de los datos
 [FastQC](https://github.com/s-andrews/fastqc) \
+[FastQC explicación](https://hbctraining.github.io/Training-modules/planning_successful_rnaseq/lessons/QC_raw_data.html) \
 $ conda install -c bioconda fastqc
 
 ### 2a) Revisar la calidad de las lecturas
