@@ -14,7 +14,7 @@ Correo: sofia.lujano@iztacala.unam.mx
 ## Facilitadores
 * **Dr. Vicente de J. Castillo Chora** — Investigador posdoctoral. vicentecchora@gmail.com
 * **Biól. Néstor Edwin López Ruiz** — Estudiante de Doctorado en Ciencias Biológicas. nestorlopezruiz99@gmail.com
-* **Elba Iztel Nicanor Licona** — Tesista de la Licenciatura en Biología.
+* **Elba Itzel Nicanor Licona** — Tesista de la Licenciatura en Biología.
 * **Erika Yazmín Maldonado González** — Estudiante de la Licenciatura en Biología.
 ---
 ## Antecedentes
