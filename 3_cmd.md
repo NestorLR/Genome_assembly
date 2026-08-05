@@ -36,7 +36,7 @@ Es una herramienta basada en texto que te permite dar órdenes directas al siste
 **clear**: limpiar la terminal \
 **wget**: descargar archivos desde Internet
 
-**Otras gracias** \
+**Otras gracias:** \
 **date**: mostrar la fecha y hora \
 **cal**: mostrar un calendario \
 **sl**: necesito relajarme \
