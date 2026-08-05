@@ -5,7 +5,9 @@
 ### 0b) Activar ambiente
 
 $ conda create -n genomics \
-$ conda activate genomics
+$ conda activate genomics \
+$ conda deactivate \
+$ conda list
 
 ---
 # Paso 1: Descarga de secuencias
