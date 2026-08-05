@@ -38,7 +38,7 @@ $ fastqc mammillaria_limpias/*.fq -O mammillaria_fastqc/.
 
 ---
 # Paso 3:  Ensamble ***de novo***
-[getorganelle](https://github.com/kinggerm/getorganelle) \
+[Getorganelle](https://github.com/kinggerm/getorganelle) \
 $ conda install -c bioconda getorganelle
 
 ### 3a) Directorio
