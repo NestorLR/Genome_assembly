@@ -47,7 +47,7 @@ $ conda install -c bioconda getorganelle
 $ mkdir mammillaria_organelle
     
 ### 3b) Ensamble
-get_organelle_from_reads.py -1 mammillaria_limpias/*1.fq -2 mammillaria_limpias/*2.fq -R 60 -k 21,45,61,75,95,109,127 -F embplant_pt -o mammillaria_organelle/ 
+$ get_organelle_from_reads.py -1 mammillaria_limpias/*1.fq -2 mammillaria_limpias/*2.fq -R 60 -k 21,45,61,75,95,109,127 -F embplant_pt -o mammillaria_organelle/ 
 
 ---  
 #  Paso 4: Datos del genoma   
