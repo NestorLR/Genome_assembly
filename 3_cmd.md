@@ -19,7 +19,7 @@ Es una herramienta basada en texto que te permite dar órdenes directas al siste
 **Acceso remoto:** Conectarse a clústers computacionales donde no hay pantallas visuales.
 
 ---
-#### Comandos
+#### Comandos básicos:
 **ls**: listar archivos y directorios \
 **mkdir**: crear un directorio \
 **cd**: cambiar directorio \
@@ -44,7 +44,7 @@ sudo apt install sl \
 **cmatrix**: estoy trabajando \
 sudo apt install cmatrix
 
-**Combos de comandos** \
+**Combos de comandos:** \
 **history | grep "vim":** \
 Busca en el historial los comandos que contienen "vim". \
 **history | grep "cd" | wc -l**: \ 
@@ -54,7 +54,7 @@ Qué creen que hace?
 
 ---
 
-#### Automatización
+#### Automatización:
 #!/bin/bash: shebang
 
 **Vamos a crear una carpeta y dentro un archivo** \
