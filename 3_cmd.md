@@ -46,7 +46,7 @@ sudo apt install cmatrix
 
 **Combos de comandos:** \
 **history | grep "vim"** \
-Busca en el historial los comandos que contienen "vim". \
+Busca en el historial los comandos que contienen "cd". \
 **history | grep "cd" | wc -l** \
 Buscar en el historial los comandos que contienen "cd" y los cuenta. \
 **grep ">" secuencias.fasta | wc -l** \
