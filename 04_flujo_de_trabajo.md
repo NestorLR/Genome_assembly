@@ -1,10 +1,10 @@
 # Paso 0: Activar ambiente
-### Ir a la Carpeta de trabajo
+### 0a) Ir a la Carpeta de trabajo
 $ cd /ruta/absoluta/a/taller_genomas
 
-### Activar ambiente
+### 0b) Activar ambiente
 
-$ conda create -n genomics
+$ conda create -n genomics \
 $ conda activate genomics
 
 ---
@@ -13,12 +13,12 @@ $ conda activate genomics
 $ mkdir mammillaria_secuencias
     
 ### 1b descargar las secuencias
-$ conda install -c bioconda sra-tools
+$ conda install -c bioconda sra-tools \
 $ fasterq-dump SRR23441685 -O "mammillaria_secuencias/." --verbose 
 
 ---
 # Paso 2: Preprocesamiento de los datos
-[FastQC](https://github.com/s-andrews/fastqc)
+[FastQC](https://github.com/s-andrews/fastqc) \
 $ conda install -c bioconda fastqc
 
 ### 2a Revisar la calidad de las lecturas
@@ -50,7 +50,6 @@ get_organelle_from_reads.py -1 mammillaria_limpias/*1.fq -2 mammillaria_limpias/
 
 ---  
 #  Paso 4: Datos del genoma   
-###
 [Bandage](https://rrwick.github.io/Bandage/) \ 
 $ conda install -c bioconda bandage
 
