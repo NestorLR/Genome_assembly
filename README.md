@@ -14,7 +14,7 @@ Correo: sofia.lujano@iztacala.unam.mx
 ## Facilitadores
 * **Dr. Vicente de J. Castillo Chora** — Investigador posdoctoral. vicentecchora@gmail.com
 * **Biól. Néstor Edwin López Ruiz** — Estudiante de Doctorado en Ciencias Biológicas. nestorlopezruiz99@gmail.com
-* **Elba Iztel Nicanor Licona** — Tesista de la Licenciatura en Biología.
+* **Elba Itzel Nicanor Licona** — Tesista de la Licenciatura en Biología.
 * **Erika Yazmín Maldonado González** — Estudiante de la Licenciatura en Biología.
 ---
 ## Antecedentes
@@ -49,10 +49,10 @@ Los materiales del taller se encuentran organizados en los siguientes documentos
 | 09:00 – 09:30 |   [01_Introducción.md](https://github.com/vicentoc/Genome_assembly/blob/main/02_Introducci%C3%B3n.md) | Introducción a las tecnologías de secuenciación masiva y al flujo experimental de generación de datos genómicos. |
 | 09:30 – 10:30 |  [02_instalación.md](https://github.com/vicentoc/Genome_assembly/blob/main/01_Instalaci%C3%B3n_Programas.md)  |Instalación de programas bioinformáticos.|
 | 10:30 – 11:00 | [03_cmd.md](https://github.com/vicentoc/Genome_assembly/blob/main/3_cmd.md)  | Introducción a línea de comandos  |
-| 11:00 – 11:30 | [04_ensamble.md](https://github.com/vicentoc/Genome_assembly/blob/main/04_ensamble.md) | Introducción a repositorios públicos y descarga de datos de secuenciación. |
-| 11:00 – 11:30 | [04_ensamble.md](https://github.com/vicentoc/Genome_assembly/blob/main/04_ensamble.md) | Ensamble *de novo* de genomas citoplásmicos utilizando GetOrganelle.|
+| 11:00 – 11:30 | [04_flujo_de_trabajo.md](https://github.com/vicentoc/Genome_assembly/blob/main/04_flujo_de_trabajo.md) | Introducción a repositorios públicos y descarga de datos de secuenciación. |
+| 11:00 – 11:30 | [04_flujo_de_trabajo.md](https://github.com/vicentoc/Genome_assembly/blob/main/04_flujo_de_trabajo.md) | Preprocesamiento y ensamble *de novo* de genomas citoplásmicos.
 | 11:30 – 12:30 |  [Geseq](https://chlorobox.mpimp-golm.mpg.de/geseq.html) | Anotación génica mediante herramientas en línea. |
-| 12:30 – 13:00 |                 | Integración, interpretación y discusión de resultados.  |
+| 12:30 – 13:00 |   [Chloroplast genomes](https://link.springer.com/article/10.1186/s12864-025-12498-6) / [Comparative mitogenomics](https://zookeys.pensoft.net/article/152269/)          | Integración, interpretación y discusión de resultados.  |
 
 ---
 
