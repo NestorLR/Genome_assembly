@@ -11,14 +11,21 @@ $ conda list
 
 ---
 # Paso 1: Descarga de secuencias
-### 1a) Make a directory para las secuencias
+### 1a) Enlista los directorios que tienes
+$ ls
+### 1c) Crear un directorio para las secuencias
 $ mkdir mammillaria_secuencias
     
-### 1b) descargar las secuencias
+### 1d) Descargar las secuencias
 [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) \
 $ conda install -c bioconda sra-tools \
 $ fasterq-dump SRR23441678 -O "mammillaria_secuencias/." --verbose 
 
+### 1d) Revisa las características de los archivos descargados
+$ ls -l mammillaria_secuencias/*
+
+### 1e) Comprime los archivos
+$  gzip mammillaria_secuencias/*
 ---
 # Paso 2: Preprocesamiento de los datos
 [FastQC](https://github.com/s-andrews/fastqc) \
