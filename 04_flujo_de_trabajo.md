@@ -17,35 +17,40 @@ $ ls
 $ mkdir mammillaria_secuencias
     
 ### 1d) Descargar las secuencias
-[GenBank](https://www.ncbi.nlm.nih.gov/genbank/) \
+Revisar la entrada SRR23441678 en la sección SRA de [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) \
 $ conda install -c bioconda sra-tools \
 $ fasterq-dump SRR23441678 -O "mammillaria_secuencias/." --verbose 
 
 ### 1d) Revisa las características de los archivos descargados
-$ ls -l mammillaria_secuencias/*
+$ ls -lh mammillaria_secuencias/*
 
-### 1e) Comprime los archivos
-$  gzip mammillaria_secuencias/*
 ---
 # Paso 2: Preprocesamiento de los datos
 [FastQC](https://github.com/s-andrews/fastqc) \
 [FastQC explicación](https://hbctraining.github.io/Training-modules/planning_successful_rnaseq/lessons/QC_raw_data.html) \
 $ conda install -c bioconda fastqc
 
-### 2a) Revisar la calidad de las lecturas
+### 2a) Revisar las primeras cuatro líneas de uno de los archivos fastqc
+$ head -4 mammillaria_secuencias/SRR23441678_1.fastq
+
+### 2b) Revisar la calidad de las lecturas
 $ mkdir mammillaria_fastqc \
 $ fastqc mammillaria_secuencias/* -O mammillaria_fastqc/.
 
-### 2b) Limpieza de datos
+### 2c) Limpieza de datos
 $ mkdir mammillaria_limpias
 
 [TrimGalore](https://github.com/felixkrueger/trimgalore) \
 $ conda install -c bioconda trim-galore 
 
-$ trim_galore --paired mammillaria/*1.fastq mammillaria/*2.fastq --quality 28 --length 40 --clip_R1 20 --three_prime_clip_R1 20 --clip_R2 20 --three_prime_clip_R2 20 -o "mammillaria_limpias/."
+$ trim_galore --paired mammillaria_secuencias/*1.fastq mammillaria_secuencias/*2.fastq --quality 28 --length 40 --clip_R1 20 --three_prime_clip_R1 20 --clip_R2 20 --three_prime_clip_R2 20 -o "mammillaria_limpias/."
 
-## 2c) Revisar la calidad de las lecturas
+## 2d) Revisar la calidad de las lecturas
 $ fastqc mammillaria_limpias/*.fq -O mammillaria_fastqc/.
+
+## 2e) Resumir la evaluación de la calidad de las lecturas
+$ mkdir mammillaria_multiqc
+$ multiqc mammillaria_fastqc/*.fq -o mammillaria_multiqc/.
 
 ---
 # Paso 3:  Ensamble ***de novo***
