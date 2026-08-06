@@ -34,7 +34,8 @@ $ conda install -c bioconda fastqc
 $ head -4 mammillaria_secuencias/SRR23441678_1.fastq
 
 ### 2b) Revisar la calidad de las lecturas
-$ mkdir mammillaria_fastqc \
+$ mkdir mammillaria_fastqc 
+
 $ fastqc mammillaria_secuencias/* -O mammillaria_fastqc/.
 
 ### 2c) Limpieza de datos
@@ -50,6 +51,7 @@ $ fastqc mammillaria_limpias/*.fq -O mammillaria_fastqc/.
 
 ## 2e) Resumir la evaluación de la calidad de las lecturas
 $ mkdir mammillaria_multiqc
+
 $ multiqc mammillaria_fastqc/*.fq -o mammillaria_multiqc/.
 
 ---
