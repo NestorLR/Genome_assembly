@@ -17,9 +17,16 @@ $ ls
 $ mkdir mammillaria_secuencias_crudas
     
 ### 1d) Descargar las secuencias
-Revisar la entrada SRR23441678 en la sección SRA de [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) \
-$ mamba install -c bioconda -c conda-forge sra-tools \
-$ fasterq-dump SRR23441678 -O "mammillaria_secuencias_crudas/." --verbose 
+Para el genoma de cloroplasto, usaremos los datos crudos de *Mammillaria magnimmama* provenientes del estudio de [Chincoya et al. 2023](https://www.mdpi.com/2079-7737/12/4/512), con **ID=SRR23441678** 
+
+[GenBank](https://www.ncbi.nlm.nih.gov/genbank/) \
+$ conda install -c bioconda sra-tools \
+$ fasterq-dump SRR23441678 -O "mammillaria_secuencias/." --verbose 
+
+
+
+Para el genoma de mitocondria, usaremos los datos de *Ambystoma mexicanum* provenientes del estudio de [Chincoya et al. 2023](https://www.mdpi.com/2079-7737/12/4/512), con **ID=SRX8823680**
+
 
 ### 1d) Revisa las características de los archivos descargados
 $ ls -lh mammillaria_secuencias_crudas/*
