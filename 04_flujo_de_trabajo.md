@@ -31,7 +31,7 @@ $ ls -lh mammillaria_secuencias_crudas/*
 $ mamba install -c bioconda -c conda-forge fastqc
 
 ### 2a) Revisar las primeras cuatro líneas de uno de los archivos fastqc
-$ head -4 mammillaria_secuencias/SRR23441678_1.fastq
+$ head -4 mammillaria_secuencias_crudas/SRR23441678_1.fastq
 
 ### 2b) Revisar la calidad de las lecturas
 $ mkdir mammillaria_fastqc 
