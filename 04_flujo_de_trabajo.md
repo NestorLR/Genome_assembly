@@ -4,8 +4,8 @@
 
 ### 0b) Activar ambiente
 
-$ conda create -n genomics \
-$ conda activate genomics \
+$ conda create -n genomas python=3.11 \
+$ conda activate genomas \
 $ conda deactivate \
 $ conda list
 
@@ -14,21 +14,21 @@ $ conda list
 ### 1a) Enlista los directorios que tienes
 $ ls
 ### 1c) Crear un directorio para las secuencias
-$ mkdir mammillaria_secuencias
+$ mkdir mammillaria_secuencias_crudas
     
 ### 1d) Descargar las secuencias
 Revisar la entrada SRR23441678 en la sección SRA de [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) \
-$ conda install -c bioconda sra-tools \
-$ fasterq-dump SRR23441678 -O "mammillaria_secuencias/." --verbose 
+$ mamba install -c bioconda -c conda-forge sra-tools \
+$ fasterq-dump SRR23441678 -O "mammillaria_secuencias_crudas/." --verbose 
 
 ### 1d) Revisa las características de los archivos descargados
-$ ls -lh mammillaria_secuencias/*
+$ ls -lh mammillaria_secuencias_crudas/*
 
 ---
 # Paso 2: Preprocesamiento de los datos
 [FastQC](https://github.com/s-andrews/fastqc) \
 [FastQC explicación](https://hbctraining.github.io/Training-modules/planning_successful_rnaseq/lessons/QC_raw_data.html) \
-$ conda install -c bioconda fastqc
+$ mamba install -c bioconda -c conda-forge fastqc
 
 ### 2a) Revisar las primeras cuatro líneas de uno de los archivos fastqc
 $ head -4 mammillaria_secuencias/SRR23441678_1.fastq
@@ -36,15 +36,22 @@ $ head -4 mammillaria_secuencias/SRR23441678_1.fastq
 ### 2b) Revisar la calidad de las lecturas
 $ mkdir mammillaria_fastqc 
 
-$ fastqc mammillaria_secuencias/* -O mammillaria_fastqc/.
+$ fastqc mammillaria_secuencias_crudas/* -O mammillaria_fastqc/.
 
 ### 2c) Limpieza de datos
-$ mkdir mammillaria_limpias
+$ mkdir mammillaria_secuencias_limpias
 
 [TrimGalore](https://github.com/felixkrueger/trimgalore) \
-$ conda install -c bioconda trim-galore 
+$ mamba install -c bioconda -c conda-forge trim-galore 
 
-$ trim_galore --paired mammillaria_secuencias/*1.fastq mammillaria_secuencias/*2.fastq --quality 28 --length 40 --clip_R1 20 --three_prime_clip_R1 20 --clip_R2 20 --three_prime_clip_R2 20 -o "mammillaria_limpias/."
+$ trim_galore --paired mammillaria_secuencias_crudas/*1.fastq mammillaria_secuencias_crudas/*2.fastq --quality 28 --length 40 --clip_R1 20 --three_prime_clip_R1 20 --clip_R2 20 --three_prime_clip_R2 20 -o "mammillaria_secuencias_limpias/."
+
+NOTA: 
+- Phred-score=Q28 --> ca. 0.16% de error
+- length=40 --> Longitud mínima de 40 bases de cada lectura después del recorte.
+- --clip_R1 20 --> Elimina 20 bases del extremo 5' de R1
+- --three_prime_clip_R1 20 --> Elimina 20 bases del extremo 3' de R1 
+
 
 ## 2d) Revisar la calidad de las lecturas
 $ fastqc mammillaria_limpias/*.fq -O mammillaria_fastqc/.
@@ -52,12 +59,14 @@ $ fastqc mammillaria_limpias/*.fq -O mammillaria_fastqc/.
 ## 2e) Resumir la evaluación de la calidad de las lecturas
 $ mkdir mammillaria_multiqc
 
+$ mamba install -c bioconda -c conda-forge multiqc
+
 $ multiqc mammillaria_fastqc/*.fq -o mammillaria_multiqc/.
 
 ---
 # Paso 3:  Ensamble ***de novo***
 [Getorganelle](https://github.com/kinggerm/getorganelle) \
-$ conda install -c bioconda getorganelle
+$ mamba install -c bioconda -c conda-forge getorganelle
 
 ### 3a) Directorio
 $ mkdir mammillaria_organelle
