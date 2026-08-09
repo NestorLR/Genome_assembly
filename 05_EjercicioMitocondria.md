@@ -7,7 +7,7 @@ Recuerda seguir los pasos previamente descritos haciendo carpetas *ad hoc* para 
 
 ## - Paso 0: Activar ambiente conda 
 
-## - Paso 1: Descargar de secuencias
+## - Paso 1: Descargar los datos crudos
   ¿Cuánto pesan los archivos? 
 
 ## - Paso 2: Evaluar la calidad de los datos
