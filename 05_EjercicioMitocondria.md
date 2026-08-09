@@ -10,7 +10,7 @@ Recuerda seguir los pasos previamente descritos haciendo carpetas *ad hoc* para 
 ## - Paso 1: Descargar de secuencias
   ¿Cuánto pesan los archivos? 
 
-## - Paso 2: Evaluar de la calidad de los datos
+## - Paso 2: Evaluar la calidad de los datos
 
 ## - Paso 3: Ensamblar 
  Notas adicionales:
@@ -21,5 +21,8 @@ Recuerda seguir los pasos previamente descritos haciendo carpetas *ad hoc* para 
 ## - Paso 4: Visualizar el grafo del ensamblado
 
 ## - Paso 5: Anotar el ensamblado con los parámetros particulares para genomas mitocondriales.
+
+## -Paso 6: Comparar el ensamblado y anotación resultante con el genoma mitocondrial publicado.
+Revisa los resultados del primer reporte de genomas mitocondriales del género *Ambystoma* publicado por [Samuels et al.](https://www.sciencedirect.com/science/article/pii/S0378111904007838?via%3Dihub) y compara con lo que obtuviste. 
 
 
