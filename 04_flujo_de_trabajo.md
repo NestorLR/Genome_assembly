@@ -25,7 +25,7 @@ $ fasterq-dump SRR23441678 -O "mammillaria_secuencias/." --verbose
 
 
 
-Para el genoma de mitocondria, usaremos los datos de *Ambystoma mexicanum* provenientes del estudio de [Chincoya et al. 2023](https://www.mdpi.com/2079-7737/12/4/512), con **ID=SRX8823680**
+Para el genoma de mitocondria, usaremos los datos de *Ambystoma mexicanum* provenientes del estudio de [Chincoya et al. 2023](https://www.mdpi.com/2079-7737/12/4/512), con **ID=SRR12323373**
 
 
 ### 1d) Revisa las características de los archivos descargados
