@@ -68,7 +68,7 @@ $ mkdir mammillaria_multiqc
 
 $ mamba install -c bioconda -c conda-forge multiqc
 
-$ multiqc mammillaria_fastqc/*.fq -o mammillaria_multiqc/.
+$ multiqc mammillaria_fastqc/. -o mammillaria_multiqc/.
 
 ---
 # Paso 3:  Ensamble ***de novo***
