@@ -4,9 +4,8 @@
 
 ### 0b) Activar ambiente
 
-$ conda create -n genomas python=3.11 \
-$ conda activate genomas \
-$ conda deactivate \
+$ conda env list
+$ conda activate plastoma \
 $ conda list
 
 ---
