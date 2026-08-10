@@ -23,11 +23,6 @@ Para el genoma de cloroplasto, usaremos los datos crudos de *Mammillaria magnimm
 $ conda install -c bioconda sra-tools \
 $ fasterq-dump SRR23441678 -O "mammillaria_secuencias/." --verbose 
 
-
-NOTA:
-Para el genoma de mitocondria, usaremos los datos de *Ambystoma mexicanum* provenientes del estudio de [Chincoya et al. 2023](https://www.mdpi.com/2079-7737/12/4/512), con **ID=SRR12323373**
-
-
 ### 1d) Revisa las características de los archivos descargados
 $ ls -lh mammillaria_secuencias_crudas/*
 
