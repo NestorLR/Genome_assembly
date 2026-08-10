@@ -5,7 +5,9 @@
 ### 0b) Activar ambiente
 
 $ conda env list
-$ conda activate plastoma \
+
+$ conda activate plastoma 
+
 $ conda list
 
 ---
