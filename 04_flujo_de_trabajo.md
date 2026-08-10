@@ -1,4 +1,4 @@
-# Paso 0: Activar ambiente
+# Paso 0: Activar ambiente conda
 ### 0a) Ir a la Carpeta de trabajo
    $ cd /ruta/absoluta/a/taller_genomas
 
