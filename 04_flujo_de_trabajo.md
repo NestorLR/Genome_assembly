@@ -17,8 +17,8 @@ $ ls
 ### 1b) Crear un directorio para las secuencias
 $ mkdir mammillaria_secuencias_crudas
     
-### 1c) Descargar las secuencias
-Para el genoma de cloroplasto, usaremos los datos crudos de *Mammillaria magnimmama* provenientes del estudio de [Chincoya et al. 2023](https://www.mdpi.com/2079-7737/12/4/512), con **ID=SRR23441678** 
+### 1b) descargar las secuencias
+Para el genoma de cloroplasto, usaremos los datos de *Mammillaria magnimmama* provenientes del estudio de [Chincoya et al. 2023](https://www.mdpi.com/2079-7737/12/4/512), con **ID=SRR23441678** 
 
 [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) \
 $ conda install -c bioconda sra-tools \
