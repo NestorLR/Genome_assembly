@@ -23,8 +23,3 @@ El flujo general de trabajo experimental para la obtención de datos de secuenci
 
 
 ---
-
-## Flujo de trabajo del taller
-
-
-![Banner del taller](Figuras/Banner.png)
