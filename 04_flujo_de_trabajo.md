@@ -115,7 +115,7 @@ get_organelle_from_reads.py -1 secuencias_limpias/*1.fq -2 secuencias_limpias/*2
 - Los que trabajan con **genoma de mitocondria**
 
 ```bash
-get_organelle_from_reads.py -1 secuencias_crudas/*1.fq -2 secuencias_crudas/*2.fastq -t 4 -w 85 -R 10 -k 21,45,65,85,105 -F animal_mt -o genoma_ensamblado/.
+get_organelle_from_reads.py -1 secuencias_limpias/*1.fq -2 secuencias_limpias/*2.fq -t 4 -w 85 -R 10 -k 21,45,65,85,105 -F animal_mt -o genoma_ensamblado/.
 ```
 
 
