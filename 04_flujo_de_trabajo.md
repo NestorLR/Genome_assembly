@@ -1,4 +1,24 @@
+# Paso 0: Descargar los datos
 
+- Los que trabajarán con **genoma de cloroplasto:**
+
+```bash
+conda activate plastoma 
+```
+
+```bash
+fasterq-dump SRR23441678 -O "secuencias_crudas/." --verbose 
+```
+
+- Los que trabajarán con **genoma de mitocondria**
+
+```bash
+conda activate plastoma 
+```
+
+```bash
+fasterq-dump SRR1171146	-O "secuencias_crudas/." --verbose 
+```
 
 ### Programas utilizados durante el taller
 
