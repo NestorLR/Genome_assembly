@@ -201,15 +201,6 @@ get_organelle_from_reads.py --help
 
 Si los comandos muestran información de versión o ayuda sin generar errores, la instalación se realizó correctamente.
 
-### Programas utilizados durante el taller
-
-| Programa     | Propósito                                                                  |
-| ------------ | -------------------------------------------------------------------------- |
-| SRA Toolkit  | Descarga de datos de secuenciación desde NCBI Sequence Read Archive (SRA). |
-| FastQC       | Evaluación de la calidad de las lecturas de secuenciación.                 |
-| MultiQC      | Integración de múltiples reportes de calidad en un único informe.          |
-| Trimgalore   | Filtrado y limpieza de lecturas de secuenciación.                          |
-| GetOrganelle | Ensamblado de genomas de organelos a partir de lecturas Illumina.          |
 
 ### Verificación final
 
