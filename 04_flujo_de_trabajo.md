@@ -76,6 +76,7 @@ Localizamos el reporte .html y lo abrimos.
 
 Software:[TrimGalore](https://github.com/felixkrueger/trimgalore) \
 
+- Para los que trabajan con **genoma de cloroplasto:**
 
 ```bash
 trim_galore --paired secuencias_crudas/*1.fastq secuencias_crudas/*2.fastq --quality 20 --length 40 --clip_R1 20 --three_prime_clip_R1 20 --clip_R2 20 --three_prime_clip_R2 20 -o "secuencias_limpias/."
@@ -85,10 +86,17 @@ NOTA:
 - Phred-score=Q28 --> ca. 99.84% de confianza
 - length=40 --> Longitud mínima de 40 bases de cada lectura después del recorte.
 - --clip_R1 20 --> Elimina 20 bases del extremo 5' de R1
-- --three_prime_clip_R1 20 --> Elimina 20 bases del extremo 3' de R1 
+- --three_prime_clip_R1 20 --> Elimina 20 bases del extremo 3' de R1
 
 
-## 3d) Revisar la nueva calidad de las lecturas para los datos de genoma de cloroplasto
+- Para los que trabajan con **genoma de mitocondria:**
+
+```bash
+trim_galore --paired secuencias_crudas/*1.fastq secuencias_crudas/*2.fastq --quality 20 -o "secuencias_limpias/."
+```
+
+
+## 3d) Revisar la nueva calidad de las lecturas (TODOS)
 
 ```bash
 fastqc secuencias_limpias/*.fq -O fastqc/.
