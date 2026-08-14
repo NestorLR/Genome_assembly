@@ -46,11 +46,12 @@ Los materiales del taller se encuentran organizados en los siguientes documentos
 
 | Horario       |       Archivo          | Actividad                                                                                                        |
 | ------------- | ----------------| ------------------------------------------------------------------------------------------------ |
-| 09:00 – 09:30 |   [01_Introducción.md](https://github.com/vicentoc/Genome_assembly/blob/main/02_Introducci%C3%B3n.md) | Introducción a las tecnologías de secuenciación masiva y al flujo experimental de generación de datos genómicos. |
-| 09:30 – 10:30 |  [02_instalación.md](https://github.com/vicentoc/Genome_assembly/blob/main/01_Instalaci%C3%B3n_Programas.md)  |Instalación de programas bioinformáticos.|
-| 10:30 – 11:00 | [03_cmd.md](https://github.com/vicentoc/Genome_assembly/blob/main/3_cmd.md)  | Introducción a línea de comandos  |
-| 11:00 – 11:30 | [04_flujo_de_trabajo.md](https://github.com/vicentoc/Genome_assembly/blob/main/04_flujo_de_trabajo.md) | Introducción a repositorios públicos y descarga de datos de secuenciación. |
-| 11:00 – 11:30 | [04_flujo_de_trabajo.md](https://github.com/vicentoc/Genome_assembly/blob/main/04_flujo_de_trabajo.md) | Preprocesamiento y ensamble *de novo* de genomas citoplásmicos.
+| 09:00 – 10:15 |  [01_Instalación_Programas.md](https://github.com/vicentoc/Genome_assembly/blob/main/01_Instalaci%C3%B3n_Programas.md)  |Presentación del taller e introducción del repositorio GitHub.|
+| 09:15 – 09:45 |   [02_Introducción.md](https://github.com/NestorLR/Genome_assembly/blob/UpDate_13-08-26/01_Instalaci%C3%B3n_Programas.md) | Introducción a los genómas citoplásmicos y a las tecnologías de secuenciación masiva |
+| 9:45 – 10:20 | [03_cmd.md](https://github.com/vicentoc/Genome_assembly/blob/main/3_cmd.md)  | Introducción a línea de comandos  |
+| 10:20 – 10:30 | RECESO  |-|
+| 10:30 – 11:00 | [04_flujo_de_trabajo.md](https://github.com/NestorLR/Genome_assembly/blob/UpDate_13-08-26/04_flujo_de_trabajo.md) | Introducción a repositorios públicos y descarga de datos de secuenciación. |
+| 11:00 – 11:30 | [04_flujo_de_trabajo.md](https://github.com/NestorLR/Genome_assembly/blob/UpDate_13-08-26/04_flujo_de_trabajo.md) | Preprocesamiento y ensamble *de novo* de genomas citoplásmicos.
 | 11:30 – 12:30 |  [Geseq](https://chlorobox.mpimp-golm.mpg.de/geseq.html) | Anotación génica mediante herramientas en línea. |
 | 12:30 – 13:00 |   [Chloroplast genomes](https://link.springer.com/article/10.1186/s12864-025-12498-6) / [Comparative mitogenomics](https://zookeys.pensoft.net/article/152269/)          | Integración, interpretación y discusión de resultados.  |
 
