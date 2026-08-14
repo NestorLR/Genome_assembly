@@ -5,13 +5,20 @@
 
 ![Mitocondria_Cloroplasto](Figuras/Mitocondria_Cloroplast.png)
 
+
+
 ¿Qué sabemos hasta el momento de estos genomas?
 
-![Mitocondria_Cloroplasto](Figuras/Mitocondria_Cloroplast.png)
+
+
+![Mitocondria](Figuras/Typical_Mitochondria.png)
 **Figura 1.** Estrcutura típica de un genoma mitocondrial de animales. Tomado de [Xin et al., 2025](https://www.sciencedirect.com/science/article/pii/S0717345825000193).
 
-![Mitocondria_Cloroplasto](Figuras/Mitocondria_Cloroplast.png)
-**Figura 1.** Estrcutura típica de un genoma de cloroplasto de plantas. Tomado de [Xin et al., 2025](https://www.sciencedirect.com/science/article/pii/S0717345825000193).
+
+
+![Cloroplasto](Figuras/Cloroplast_genome.png)
+**Figura 2.** Estrcutura típica de un genoma de cloroplasto de plantas. Tomado de [Solórzano et al., 2019](https://www.mdpi.com/2223-7747/8/10/392).
+
 
 
 Conoce más de las aplicaciones del genoma de cloroplasto y de mitocondria en animales consultando el artículo de [Dobrogojski](https://link.springer.com/article/10.1007/s11738-020-03089-x) y [Xin et al., 2025](https://www.sciencedirect.com/science/article/pii/S0717345825000193), respectivamente.
