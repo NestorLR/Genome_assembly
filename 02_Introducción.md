@@ -2,7 +2,7 @@
 ---
 ## El genoma de cloroplasto y la mitocondria
 
-![NGS WorkFlow](Figuras/NGS_WorkFlow.png)
+![Mitocondria_Cloroplasto](Figuras/Mitocondria_Cloroplast.png)
 
 ---
 ## Generalidades de la Secuenciación de Nueva Generación (NGS)
