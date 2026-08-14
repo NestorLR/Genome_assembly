@@ -21,6 +21,8 @@
 
 
 
+
+
 Conoce más de las aplicaciones del genoma de cloroplasto y de mitocondria en animales consultando el artículo de [Dobrogojski](https://link.springer.com/article/10.1007/s11738-020-03089-x) y [Xin et al., 2025](https://www.sciencedirect.com/science/article/pii/S0717345825000193), respectivamente.
 
 ---
