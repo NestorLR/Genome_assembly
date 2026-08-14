@@ -1,4 +1,4 @@
-# Descargar los datos
+# 1. Descargar los datos
 ---
 
 - Los que trabajarán con **genoma de cloroplasto:**
@@ -33,7 +33,7 @@ fasterq-dump SRR1171146	-O "secuencias_crudas/." --verbose
 | Bandage      | Visualización de gráficas del ensamblado.                                  |
 
 ---
-# Bases de datos públicas para información genética y genómica
+# 2. Bases de datos públicas para información genética y genómica
 ---
 
 Exploremos la página del [NCBI](https://www.ncbi.nlm.nih.gov/genbank/)
@@ -43,13 +43,13 @@ Para el genoma de cloroplasto, usaremos los datos de *Mammillaria magnimmama* pr
 
 En el caso del genoma mitocondrial, usaremos los datos crudos de *Apis mellifera* subsp. *scutellata* con ID: **SRR1171146**
 
-# 1. Pre-procesamiento de los datos
+# 3. Pre-procesamiento de los datos
 ---
 Software a utilizar: [FastQC](https://github.com/s-andrews/fastqc) \
 [FastQC explicación](https://hbctraining.github.io/Training-modules/planning_successful_rnaseq/lessons/QC_raw_data.html) \
 
 
-### 1a) Revisar las primeras cuatro líneas de uno de los archivos fastqc
+### 3a) Revisar las primeras cuatro líneas de uno de los archivos fastqc
 
 - Los que trabajarán con **genoma de cloroplasto:**
 
@@ -63,7 +63,7 @@ head -4 secuencias_crudas/SRR23441678_1.fastq
 head -4 secuencias_crudas/SRR1171146_1.fastq
 ```
 
-### 1b) Analizar la calidad de las lecturas de nuestros datos
+### 3b) Analizar la calidad de las lecturas de nuestros datos
 
 - **Todos hacemos:**
 ```bash
@@ -72,7 +72,7 @@ fastqc secuencias_crudas/* -O fastqc/.
 
 Localizamos el reporte .html y lo abrimos.
 
-### 1c) Limpieza de datos (Solo para datos de genoma de cloroplasto)
+### 3c) Limpieza de datos (Solo para datos de genoma de cloroplasto)
 
 Software:[TrimGalore](https://github.com/felixkrueger/trimgalore) \
 
@@ -88,14 +88,14 @@ NOTA:
 - --three_prime_clip_R1 20 --> Elimina 20 bases del extremo 3' de R1 
 
 
-## 1d) Revisar la nueva calidad de las lecturas para los datos de genoma de cloroplasto
+## 3d) Revisar la nueva calidad de las lecturas para los datos de genoma de cloroplasto
 
 ```bash
 fastqc secuencias_limpias/*.fq -O fastqc/.
 ```
 
 ---
-# 2.  Ensamble ***de novo***
+# 4.  Ensamble ***de novo***
 Software: [Getorganelle](https://github.com/kinggerm/getorganelle) \
 
 - Los que trabajan con **genoma de cloroplasto:**
@@ -112,7 +112,7 @@ get_organelle_from_reads.py -1 secuencias_crudas/*1.fq -2 secuencias_crudas/*2.f
 
 
 ---  
-#  3.  Datos del genoma   
+#  5.  Datos del genoma   
 Software: [Bandage](https://rrwick.github.io/Bandage/) \
 
 ### Visualizar gráfica de ensamblado
