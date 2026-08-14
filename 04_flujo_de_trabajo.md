@@ -1,4 +1,5 @@
-# Paso 0: Descargar los datos
+# Descargar los datos
+---
 
 - Los que trabajarán con **genoma de cloroplasto:**
 
@@ -30,39 +31,20 @@ fasterq-dump SRR1171146	-O "secuencias_crudas/." --verbose
 | Trimgalore   | Filtrado y limpieza de lecturas de secuenciación.                          |
 | GetOrganelle | Ensamblado de genomas de organelos a partir de lecturas Illumina.          |
 
-
-
-
-# Paso 0: Activar ambiente conda
-### 0a) Ir a la Carpeta de trabajo
-   $ cd /ruta/absoluta/a/taller_genomas
-
-### 0b) Activar ambiente
-
-$ conda env list
-
-$ conda activate plastoma 
-
-$ conda list
-
 ---
-# Paso 1: Descarga de secuencias
-### 1a) Enlista los directorios que tienes
-$ ls
-### 1b) Crear un directorio para las secuencias
-$ mkdir mammillaria_secuencias_crudas
-    
-### 1b) descargar las secuencias
-Para el genoma de cloroplasto, usaremos los datos de *Mammillaria magnimmama* provenientes del estudio de [Chincoya et al. 2023](https://www.mdpi.com/2079-7737/12/4/512), con **ID=SRR23441678** 
+# Bases de datos públicas para información genética y genómica
+---
 
 [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) \
-$ conda install -c bioconda sra-tools \
-$ fasterq-dump SRR23441678 -O "mammillaria_secuencias/." --verbose 
 
-### 1d) Revisa las características de los archivos descargados
-$ ls -lh mammillaria_secuencias_crudas/*
 
+Para el genoma de cloroplasto, usaremos los datos de *Mammillaria magnimmama* provenientes del estudio de [Chincoya et al. 2023](https://www.mdpi.com/2079-7737/12/4/512), con **ID=SRR23441678** 
+
+En el caso del genoma mitocondrial, usaremos los datos crudos de *Apis mellifera* subsp. *scutellata* con ID: **SRR1171146**
+
+# Pre-procesamiento de los datos
 ---
+
 # Paso 2: Preprocesamiento de los datos
 [FastQC](https://github.com/s-andrews/fastqc) \
 [FastQC explicación](https://hbctraining.github.io/Training-modules/planning_successful_rnaseq/lessons/QC_raw_data.html) \
