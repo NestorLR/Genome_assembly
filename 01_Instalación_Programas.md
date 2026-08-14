@@ -166,7 +166,8 @@ sra-tools \
 fastqc \
 multiqc \
 trim-galore \
-getorganelle
+getorganelle \
+bandage
 ```
 
 La instalación puede tardar varios minutos dependiendo de la velocidad de internet y del equipo de cómputo.
