@@ -101,13 +101,13 @@ Software: [Getorganelle](https://github.com/kinggerm/getorganelle) \
 - Los que trabajan con **genoma de cloroplasto:**
 
 ```bash
-get_organelle_from_reads.py -1 secuencias_limpias/*1.fq -2 secuencias_limpias/*2.fq -t 4 -w 85 -R 10 -k 81,95,99,109,115,119,121,125,127 -F embplant_pt -o ensamblado/.
+get_organelle_from_reads.py -1 secuencias_limpias/*1.fq -2 secuencias_limpias/*2.fq -t 4 -w 85 -R 10 -k 81,95,99,109,115,119,121,125,127 -F embplant_pt -o genoma_ensamblado/.
 ```
 
 - Los que trabajan con **genoma de mitocondria**
 
 ```bash
-get_organelle_from_reads.py -1 secuencias_crudas/*1.fq -2 secuencias_crudas/*2.fastq -t 4 -w 85 -R 10 -k 21,45,65,85,105 -F animal_mt -o ensamblado/.
+get_organelle_from_reads.py -1 secuencias_crudas/*1.fq -2 secuencias_crudas/*2.fastq -t 4 -w 85 -R 10 -k 21,45,65,85,105 -F animal_mt -o genoma_ensamblado/.
 ```
 
 
@@ -116,8 +116,8 @@ get_organelle_from_reads.py -1 secuencias_crudas/*1.fq -2 secuencias_crudas/*2.f
 Software: [Bandage](https://rrwick.github.io/Bandage/) \
 
 ### Visualizar gráfica de ensamblado
-$ Bandage image mammillaria_organelle/*selected_graph.gfa mammillaria_organelle/graph_bandage.png \
+$ Bandage image genoma_ensamblado/*selected_graph.gfa genoma_ensamblado/graph_bandage.png \
 $ eog graph_bandage.png \
-$ Bandage image mammillaria_organelle/*selected_graph.gfa mammillaria_organelle/graph_bandage.png --lengths --depth
+$ Bandage image genoma_ensamblado/*selected_graph.gfa genoma_ensamblado/graph_bandage.png --lengths --depth
 
 
