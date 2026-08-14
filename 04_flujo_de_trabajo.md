@@ -108,8 +108,14 @@ Software: [Getorganelle](https://github.com/kinggerm/getorganelle) \
 
 - Los que trabajan con **genoma de cloroplasto:**
 
+Opción 1
 ```bash
-get_organelle_from_reads.py -1 secuencias_limpias/*1.fq -2 secuencias_limpias/*2.fq -t 4 -w 85 -R 10 -k 81,95,99,109,115,119,121,125,127 -F embplant_pt -o genoma_ensamblado
+get_organelle_from_reads.py -1 secuencias_limpias/*1.fq -2 secuencias_limpias/*2.fq -t 1 -w 85 -R 10 -k 121,125,127 -F embplant_pt -o genoma_ensamblado --overwrite
+```
+
+Opción 2
+```bash
+get_organelle_from_reads.py -1 secuencias_limpias/*1.fq -2 secuencias_limpias/*2.fq -t 1 -w 85 -R 10 -k 121,125,127 -F embplant_pt -o genoma_ensamblado --overwrite --reduce-reads-for-coverage inf 
 ```
 
 - Los que trabajan con **genoma de mitocondria**
