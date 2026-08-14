@@ -72,27 +72,26 @@ fastqc secuencias_crudas/* -O fastqc/.
 
 Localizamos el reporte .html y lo abrimos.
 
-### 3c) Limpieza de datos (Solo para datos de genoma de cloroplasto)
+### 3c) Limpieza de datos
 
 Software:[TrimGalore](https://github.com/felixkrueger/trimgalore) \
 
 - Para los que trabajan con **genoma de cloroplasto:**
 
 ```bash
-trim_galore --paired secuencias_crudas/*1.fastq secuencias_crudas/*2.fastq --quality 20 --length 40 --clip_R1 20 --three_prime_clip_R1 20 --clip_R2 20 --three_prime_clip_R2 20 -o "secuencias_limpias/."
+trim_galore --paired secuencias_crudas/*1.fastq secuencias_crudas/*2.fastq --quality 20 --length 40 -o "secuencias_limpias/."
 ```
 
 NOTA: 
-- Phred-score=Q28 --> ca. 99.84% de confianza
+- Phred-score=Q20 --> ca. 99% de confianza
 - length=40 --> Longitud mínima de 40 bases de cada lectura después del recorte.
-- --clip_R1 20 --> Elimina 20 bases del extremo 5' de R1
-- --three_prime_clip_R1 20 --> Elimina 20 bases del extremo 3' de R1
+
 
 
 - Para los que trabajan con **genoma de mitocondria:**
 
 ```bash
-trim_galore --paired secuencias_crudas/*1.fastq secuencias_crudas/*2.fastq --quality 20 -o "secuencias_limpias/."
+trim_galore --paired secuencias_crudas/*1.fastq secuencias_crudas/*2.fastq --quality 20 --length 40 -o "secuencias_limpias/."
 ```
 
 
@@ -108,12 +107,6 @@ Software: [Getorganelle](https://github.com/kinggerm/getorganelle) \
 
 - Los que trabajan con **genoma de cloroplasto:**
 
-Opción 1
-```bash
-get_organelle_from_reads.py -1 secuencias_limpias/*1.fq -2 secuencias_limpias/*2.fq -t 1 -w 85 -R 10 -k 121,125,127 -F embplant_pt -o genoma_ensamblado --overwrite
-```
-
-Opción 2
 ```bash
 get_organelle_from_reads.py -1 secuencias_limpias/*1.fq -2 secuencias_limpias/*2.fq -t 1 -w 85 -R 10 -k 121,125,127 -F embplant_pt -o genoma_ensamblado --overwrite --reduce-reads-for-coverage inf 
 ```
