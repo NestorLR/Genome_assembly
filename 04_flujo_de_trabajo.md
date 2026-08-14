@@ -1,3 +1,18 @@
+
+
+### Programas utilizados durante el taller
+
+| Programa     | Propósito                                                                  |
+| ------------ | -------------------------------------------------------------------------- |
+| SRA Toolkit  | Descarga de datos de secuenciación desde NCBI Sequence Read Archive (SRA). |
+| FastQC       | Evaluación de la calidad de las lecturas de secuenciación.                 |
+| MultiQC      | Integración de múltiples reportes de calidad en un único informe.          |
+| Trimgalore   | Filtrado y limpieza de lecturas de secuenciación.                          |
+| GetOrganelle | Ensamblado de genomas de organelos a partir de lecturas Illumina.          |
+
+
+
+
 # Paso 0: Activar ambiente conda
 ### 0a) Ir a la Carpeta de trabajo
    $ cd /ruta/absoluta/a/taller_genomas
