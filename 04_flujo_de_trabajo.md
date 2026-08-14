@@ -130,8 +130,16 @@ get_organelle_from_reads.py -1 secuencias_limpias/*1.fq -2 secuencias_limpias/*2
 Software: [Bandage](https://rrwick.github.io/Bandage/) \
 
 ### Visualizar gráfica de ensamblado
-$ Bandage image genoma_ensamblado/*selected_graph.gfa genoma_ensamblado/graph_bandage.png \
-$ eog graph_bandage.png \
-$ Bandage image genoma_ensamblado/*selected_graph.gfa genoma_ensamblado/graph_bandage.png --lengths --depth
+```bash
+Bandage image genoma_ensamblado/*selected_graph.gfa genoma_ensamblado/graph_bandage.png
+```
 
+```bash
+eog graph_bandage.png
+```
+
+
+```bash
+Bandage image genoma_ensamblado/*selected_graph.gfa genoma_ensamblado/graph_bandage.png --lengths --depth
+```
 
