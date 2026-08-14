@@ -70,3 +70,38 @@ echo 'echo "Hola Mundo"' >> apocosi.sh \
 cat apocosi.sh \
 **Ejecutar apocosi.sh** \
 ./apocosi.sh
+
+
+---
+
+#### Crear directorios de trabajo
+Seleccionar con qué tipo de genoma trabajarás: **Genoma de cloroplasto** o **genoma mitocondrial**
+
+- Para **genoma de cloroplasto:**
+
+```bash
+mkdir mammillaria
+```
+
+```bash
+cd mammillaria
+```
+
+```bash
+mkdir -p secuencias_crudas secuencias_limpias fastqc
+```
+
+
+- Para **genoma mitocondrial:**
+
+```bash
+mkdir Apis
+```
+
+```bash
+cd Apis
+```
+
+```bash
+mkdir -p secuencias_crudas secuencias_limpias fastqc
+```
