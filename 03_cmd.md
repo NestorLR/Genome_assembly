@@ -91,6 +91,9 @@ cd mammillaria
 mkdir -p secuencias_crudas secuencias_limpias fastqc
 ```
 
+```bash
+ls
+```
 
 - Para **genoma mitocondrial:**
 
@@ -104,4 +107,8 @@ cd Apis
 
 ```bash
 mkdir -p secuencias_crudas secuencias_limpias fastqc
+```
+
+```bash
+ls
 ```
