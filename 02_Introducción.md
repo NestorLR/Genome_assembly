@@ -38,7 +38,7 @@ El flujo general de trabajo experimental para la obtención de datos de secuenci
 
 ![NGS WorkFlow](Figuras/NGS_WorkFlow.png)
 
-**Figura 2.** Flujo de trabajo experimental para la obtención de datos de secuenciación masiva por medio de la plataforma Illumina. Puedes encontrar una descripción general de los pasos [aquí](https://microbenotes.com/illumina-sequencing)
+**Figura 3.** Flujo de trabajo experimental para la obtención de datos de secuenciación masiva por medio de la plataforma Illumina. Puedes encontrar una descripción general de los pasos [aquí](https://microbenotes.com/illumina-sequencing)
 
 
 
