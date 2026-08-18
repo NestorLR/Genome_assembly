@@ -12,12 +12,12 @@
 
 
 ![Mitocondria](Figuras/Typical_Mitochondria.jpg)
-**Figura 1.** Estrcutura típica de un genoma mitocondrial de animales. Tomado de [Xin et al., 2025](https://www.sciencedirect.com/science/article/pii/S0717345825000193).
+**Figura 1.** Estructura típica de un genoma mitocondrial de animales. Tomado de [Xin et al., 2025](https://www.sciencedirect.com/science/article/pii/S0717345825000193).
 
 
 
 ![Cloroplasto](Figuras/Cloroplast_genome.png)
-**Figura 2.** Estrcutura típica de un genoma de cloroplasto de plantas. Tomado de [Solórzano et al., 2019](https://www.mdpi.com/2223-7747/8/10/392).
+**Figura 2.** Estructura típica de un genoma de cloroplasto de plantas. Tomado de [Solórzano et al., 2019](https://www.mdpi.com/2223-7747/8/10/392).
 
 
 
