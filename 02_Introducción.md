@@ -11,7 +11,7 @@
 
 
 
-![Mitocondria](Figuras/Typical_Mitochondria.png)
+![Mitocondria](Figuras/Typical_Mitochondria.jpg)
 **Figura 1.** Estrcutura típica de un genoma mitocondrial de animales. Tomado de [Xin et al., 2025](https://www.sciencedirect.com/science/article/pii/S0717345825000193).
 
 
