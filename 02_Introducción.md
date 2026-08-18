@@ -3,6 +3,28 @@
 ## El genoma de cloroplasto y la mitocondria
 
 
+![Mitocondria_Cloroplasto](Figuras/Mitocondria_Cloroplast.png)
+
+
+
+¿Qué sabemos hasta el momento de estos genomas?
+
+
+
+![Mitocondria](Figuras/Typical_Mitochondria.png)
+**Figura 1.** Estrcutura típica de un genoma mitocondrial de animales. Tomado de [Xin et al., 2025](https://www.sciencedirect.com/science/article/pii/S0717345825000193).
+
+
+
+![Cloroplasto](Figuras/Cloroplast_genome.png)
+**Figura 2.** Estrcutura típica de un genoma de cloroplasto de plantas. Tomado de [Solórzano et al., 2019](https://www.mdpi.com/2223-7747/8/10/392).
+
+
+
+
+
+Conoce más de las aplicaciones del genoma de cloroplasto y de mitocondria en animales consultando el artículo de [Dobrogojski](https://link.springer.com/article/10.1007/s11738-020-03089-x) y [Xin et al., 2025](https://www.sciencedirect.com/science/article/pii/S0717345825000193), respectivamente.
+
 ---
 ## Generalidades de la Secuenciación de Nueva Generación (NGS)
 
@@ -16,55 +38,9 @@ El flujo general de trabajo experimental para la obtención de datos de secuenci
 
 ![NGS WorkFlow](Figuras/NGS_WorkFlow.png)
 
-**Figura 1.** Flujo de trabajo experimental para la obtención de datos de secuenciación masiva por medio de la plataforma Illumina. Puedes encontrar una descripción general de los pasos [aquí](https://microbenotes.com/illumina-sequencing)
+**Figura 3.** Flujo de trabajo experimental para la obtención de datos de secuenciación masiva por medio de la plataforma Illumina. Puedes encontrar una descripción general de los pasos [aquí](https://microbenotes.com/illumina-sequencing)
 
 
-
-
-
-**Conceptos importantes a tener en cuenta:**
-
-1. **[Tipos de bibliotecas genómicas](https://www.illumina.com/science/technology/next-generation-sequencing/plan-experiments/paired-end-vs-single-read.html):** Las bibliotecas pueden ser *Single-end* (SE) o *Paired-end* (PE). En las bibliotecas SE se obtiene una lectura por fragmento de ADN, mientras que en las PE se obtienen dos lecturas (una por cada extremo del fragmento, **Figura 2**). Las bibliotecas PE suelen producir mejores ensamblados y son las más utilizadas para la recuperación de genomas de cloroplasto.
-   
-![Single-end y Pair-end](Figuras/Pair-end_Single-end.png)
-
-**Figura 2.** Comparación entre bibliotecas Single-End (SE) y Paired-End (PE). En las bibliotecas SE se obtiene una lectura por fragmento, mientras que en las bibliotecas PE se secuencian ambos extremos del inserto.
-
-
-
-
-2. **Profundidad de la secuenciación:** Indica cuántas veces, en promedio, se ha leído una misma posición del ADN. A mayor profundidad, mayor confianza en la secuencia reconstruida (**Figura 3**).
-
-3. **Calidad de la secuenciación:** Indica la confiabilidad de las bases identificadas en las lecturas. Se representa mediante el puntaje de calidad (*Phred Score*, Q), donde valores más altos corresponden a una menor probabilidad de error (**Figura 3**).
-
-
-
-![Profundidad y calidad](Figuras/Profundidad_calidad.png)
-
-**Figura 3.** Conceptos de profundidad y calidad de secuenciación. La profundidad indica cuántas veces se ha leído una posición nucleotídica del fragmento de ADN, mientras que la calidad representa la confianza en la identificación de cada nucleótido.
-
-
-
-
-**Factores que afectan el ensamblado de plastomas:**
-
-1. **ADN degradado o contaminado**, lo que reduce la cantidad y calidad de las lecturas obtenidas (e.g. [tejido de herbario vs. tejido fresco](https://repository.naturalis.nl/pub/801326/Bakker-2016-Herbarium-genomics-A.pdf)).
-
-2. **Baja proporción de ADN cloroplástico** en la muestra original, lo que disminuye la cobertura del plastoma durante la secuenciación.
-
-3. **Profundidad de secuenciación insuficiente**, que puede resultar en regiones del plastoma con poca o nula cobertura.
-
-4. **Calidad deficiente de las lecturas**, aumentando la probabilidad de errores durante el ensamblado.
-
-5. **Estrategia de secuenciación no adecuada para la recuperación de organelos**, como algunos enfoques de [RAD-seq](https://www.nature.com/articles/nrg.2015.28), [captura dirigida](https://pmc.ncbi.nlm.nih.gov/articles/PMC8312743/) o [RNA-seq](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.17382), donde la representación del ADN cloroplástico puede ser limitada.
-
-
-Nota: La presencia de uno o más de estos factores no impide necesariamente la recuperación de un plastoma, pero puede reducir la calidad, completitud o éxito del ensamblado.
 
 
 ---
-
-## Flujo de trabajo del taller
-
-
-![Banner del taller](Figuras/Banner.png)
