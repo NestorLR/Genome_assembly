@@ -46,11 +46,11 @@ Los materiales del taller se encuentran organizados en los siguientes documentos
 
 | Horario       |       Archivo          | Actividad                                                                                                        |
 | ------------- | ----------------| ------------------------------------------------------------------------------------------------ |
-| 09:00 – 9:15 |  [01_Instalación_Programas.md](https://github.com/vicentoc/Genome_assembly/blob/Taller_ColoquioFESI_2026/01_Instalaci%C3%B3n_Programas.md)  |Presentación del taller e introducción del repositorio GitHub.|
-| 09:15 – 09:45 |   [02_Introducción.md](https://github.com/NestorLR/Genome_assembly/blob/UpDate_13-08-26/01_Instalaci%C3%B3n_Programas.md) | Introducción a los genómas citoplásmicos y a las tecnologías de secuenciación masiva |
-| 9:45 – 10:20 | [03_cmd.md](https://github.com/vicentoc/Genome_assembly/blob/main/3_cmd.md)  | Introducción a línea de comandos  |
-| 10:20 – 10:50 | [04_flujo_de_trabajo.md](https://github.com/NestorLR/Genome_assembly/blob/UpDate_13-08-26/04_flujo_de_trabajo.md) | Introducción a repositorios públicos y descarga de datos de secuenciación. |
-| 10:50 – 11:20 | [04_flujo_de_trabajo.md](https://github.com/NestorLR/Genome_assembly/blob/UpDate_13-08-26/04_flujo_de_trabajo.md) | Preprocesamiento y ensamble *de novo* de genomas citoplásmicos.
+| 09:00 – 9:15 |  [01_Instalación_Programas.md](https://github.com/NestorLR/Genome_assembly/blob/Taller_ColoquioFESI_2026/01_Instalaci%C3%B3n_Programas.md)  |Presentación del taller e introducción del repositorio GitHub.|
+| 09:15 – 09:45 |   [02_Introducción.md](https://github.com/NestorLR/Genome_assembly/blob/Taller_ColoquioFESI_2026/01_Instalaci%C3%B3n_Programas.md) | Introducción a los genómas citoplásmicos y a las tecnologías de secuenciación masiva |
+| 9:45 – 10:20 | [03_cmd.md](https://github.com/NestorLR/Genome_assembly/blob/Taller_ColoquioFESI_2026/03_cmd.md)  | Introducción a línea de comandos  |
+| 10:20 – 10:50 | [04_flujo_de_trabajo.md](https://github.com/NestorLR/Genome_assembly/blob/Taller_ColoquioFESI_2026/04_flujo_de_trabajo.md) | Introducción a repositorios públicos y descarga de datos de secuenciación. |
+| 10:50 – 11:20 | [04_flujo_de_trabajo.md](https://github.com/NestorLR/Genome_assembly/blob/Taller_ColoquioFESI_2026/04_flujo_de_trabajo.md) | Preprocesamiento y ensamble *de novo* de genomas citoplásmicos.
 | 11:20 – 11:30 | RECESO  |-|
 | 11:30 – 12:30 |  [Geseq](https://chlorobox.mpimp-golm.mpg.de/geseq.html) | Anotación génica mediante herramientas en línea. |
 | 12:30 – 13:00 |   [Chloroplast genomes](https://link.springer.com/article/10.1186/s12864-025-12498-6) / [Comparative mitogenomics](https://zookeys.pensoft.net/article/152269/)          | Integración, interpretación y discusión de resultados.  |
