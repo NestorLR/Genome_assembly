@@ -46,7 +46,7 @@ Los materiales del taller se encuentran organizados en los siguientes documentos
 
 | Horario       |       Archivo          | Actividad                                                                                                        |
 | ------------- | ----------------| ------------------------------------------------------------------------------------------------ |
-| 09:00 – 9:15 |  [01_Instalación_Programas.md](https://github.com/vicentoc/Genome_assembly/blob/main/01_Instalaci%C3%B3n_Programas.md)  |Presentación del taller e introducción del repositorio GitHub.|
+| 09:00 – 9:15 |  [01_Instalación_Programas.md](https://github.com/vicentoc/Genome_assembly/blob/Taller_ColoquioFESI_2026/01_Instalaci%C3%B3n_Programas.md)  |Presentación del taller e introducción del repositorio GitHub.|
 | 09:15 – 09:45 |   [02_Introducción.md](https://github.com/NestorLR/Genome_assembly/blob/UpDate_13-08-26/01_Instalaci%C3%B3n_Programas.md) | Introducción a los genómas citoplásmicos y a las tecnologías de secuenciación masiva |
 | 9:45 – 10:20 | [03_cmd.md](https://github.com/vicentoc/Genome_assembly/blob/main/3_cmd.md)  | Introducción a línea de comandos  |
 | 10:20 – 10:50 | [04_flujo_de_trabajo.md](https://github.com/NestorLR/Genome_assembly/blob/UpDate_13-08-26/04_flujo_de_trabajo.md) | Introducción a repositorios públicos y descarga de datos de secuenciación. |
