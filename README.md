@@ -1,11 +1,11 @@
-# Taller: Introducción a la bioinformática: Ensamble y anotación de genomas de cloroplasto y mitocondria
+# Taller: Del dato crudo al genoma: Ensamblado *de novo* y anotación de genomas de cloroplasto y mitocondria
 
 
 ![Banner del taller](Figuras/Banner.png)
 
 ## ¡Bienvenidxs!
 
-Les damos la bienvenida al repositorio oficial del taller **"Introducción a la bioinformática: Ensamble y anotación de genomas de cloroplasto y mitocondria"** en el marco del XLIV Coloquio de Investigación de la Facultad de Estudios Superiores Iztacala, UNAM.
+Les damos la bienvenida al repositorio oficial del taller **"Del dato crudo al genoma: Ensamblado *de novo* y anotación de genomas de cloroplasto y mitocondria"** en el marco del X Congreso Mexicano de Ecología y I Congreso ReLatE.
 
 ---
 ## Coordinadora
