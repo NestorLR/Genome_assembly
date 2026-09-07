@@ -8,7 +8,7 @@
 
 3. Se recomienda disponer de **8 GB de memoria RAM** como mínimo para ejecutar los análisis del taller.
 
-4. Durante el taller utilizaremos herramientas desarrolladas para sistemas Linux. Los usuarios de Windows deberán seguir las instrucciones de la sección 2  el **Subsistema de Windows para Linux (WSL)** y una distribución de Ubuntu.
+4. Durante el taller utilizaremos herramientas desarrolladas para sistemas Linux. Los usuarios de Windows deberán seguir las instrucciones para la instalación de programas de las secciones 2, 3 y 4. Para los usuarios de Mac/Linux, solo deberán de instalar los programas de las secciones 3 y 4.
 
 ---
 
