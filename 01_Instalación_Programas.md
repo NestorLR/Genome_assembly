@@ -4,15 +4,15 @@
 
 1. La instalación de todos los programas puede tomar entre 30 y 60 minutos, dependiendo de la velocidad de la conexión a internet. Se recomienda realizar la instalación con anticipación. Si surge alguna duda, comunícate con el equipo de facilitadores del taller.
 
-2. Asegúrate de contar con al menos **30–40 GB de espacio libre** en el disco duro para almacenar los programas, los datos crudos y los archivos generados durante los análisis.
+2. Asegúrate de contar con al menos **10 GB de espacio libre** en el disco duro para almacenar los programas, los datos crudos y los archivos generados durante los análisis.
 
-3. Se recomienda disponer de **4–8 GB de memoria RAM** como mínimo para ejecutar los análisis del taller.
+3. Se recomienda disponer de **8 GB de memoria RAM** como mínimo para ejecutar los análisis del taller.
 
-4. Durante el taller utilizaremos herramientas desarrolladas para sistemas Linux. Los usuarios de Windows deberán instalar el **Subsistema de Windows para Linux (WSL)** y una distribución de Ubuntu.
+4. Durante el taller utilizaremos herramientas desarrolladas para sistemas Linux. Los usuarios de Windows deberán seguir las instrucciones de la sección 2  el **Subsistema de Windows para Linux (WSL)** y una distribución de Ubuntu.
 
 ---
 
-## 2. Instalación de Ubuntu en Windows mediante WSL
+## 2. Instalación de Ubuntu en Windows mediante WSL (SOLO PARA QUIENES TIENEN SISTEMA OPERATIVO WINDOWS)
 
 ### Paso 1. Descargar Ubuntu
 
@@ -65,7 +65,8 @@ Password: ********
 
 ---
 
-## 3. Instalación de Miniforge
+## 3. Instalación de programas generales (PARA TODOS LOS SISTEMAS OPERATIVOS: WINDOWS/LINUX/MAC)
+### Paso 1. Instalación de Miniforge
 
 Miniforge es una distribución ligera de Conda que utilizaremos para instalar los programas bioinformáticos.
 
@@ -103,7 +104,7 @@ conda 25.x.x
 
 ---
 
-## 4. Configuración de canales de Conda
+### Paso 2. Configuración de canales de Conda
 
 Ejecutar los siguientes comandos:
 
@@ -130,7 +131,7 @@ channels:
 
 ---
 
-## 5. Verificación final
+### Paso 3. Verificación final
 
 Comprueba que Ubuntu y Conda funcionan correctamente ejecutando:
 
@@ -138,22 +139,22 @@ Comprueba que Ubuntu y Conda funcionan correctamente ejecutando:
 conda info
 ```
 
-## 6. Instalación de los programas bioinformáticos
+## 4. Instalación de los programas bioinformáticos (PARA TODOS LOS SISTEMAS OPERATIVOS: WINDOWS/LINUX/MAC)
 
-Durante el taller utilizaremos diversos programas para la descarga, evaluación de calidad y ensamblado de genomas de cloroplasto. Todos los programas se instalarán mediante **Conda** dentro de un ambiente específico.
+Durante el taller utilizaremos diversos programas para la descarga, evaluación de calidad y ensamblado de genomas de cloroplasto. Todos los programas se instalarán mediante **Conda**, utilizando el programa instalado en la sección anterior. 
 
 ### Paso 1. Crear un ambiente de trabajo
 
-Se recomienda crear un ambiente llamado `plastoma`:
+Se recomienda crear un ambiente llamado `taller_CME`:
 
 ```bash
-conda create -n plastoma python=3.11
+conda create -n taller_CME python=3.11
 ```
 
 Activar el ambiente:
 
 ```bash
-conda activate plastoma
+conda activate taller_CME
 ```
 
 ### Paso 2. Instalar los programas necesarios
@@ -203,7 +204,7 @@ get_organelle_from_reads.py --help
 Si los comandos muestran información de versión o ayuda sin generar errores, la instalación se realizó correctamente.
 
 
-### Verificación final
+### Paso 4. Verificación final
 
 Ejecutar:
 
@@ -211,5 +212,6 @@ Ejecutar:
 conda list
 ```
 
-Deberán aparecer los programas mencionados anteriormente dentro del ambiente `plastoma`.
+Deberán aparecer los programas mencionados anteriormente dentro del ambiente `taller_CME`.
 
+¡Si todo salió bien, ya estás listo para el taller! Envíanos un correo electrónico confirmando la correcta instalación de los programas. 
